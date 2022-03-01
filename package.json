@@ -1,0 +1,27 @@
+{
+  "name": "word-count",
+  "version": "1.0.0",
+  "description": "Word Count",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "file",
+    "upload",
+    "streaming"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
+  "dependencies": {
+    "busboy": "^0.2.14",
+    "express": "^4.15.3",
+    "form-data": "^2.1.4",
+    "http-status-codes": "^1.1.6",
+    "morgan": "^1.8.2",
+    "random-words": "^1.1.2",
+    "request": "^2.81.0"
+  }
+}
